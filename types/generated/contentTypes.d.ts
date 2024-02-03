@@ -384,6 +384,8 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
     originallyPostedDate: Attribute.DateTime;
     description: Attribute.Text;
     category: Attribute.String;
+    canonicalUrl: Attribute.UID<'api::blog-post.blog-post', 'title'> &
+      Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

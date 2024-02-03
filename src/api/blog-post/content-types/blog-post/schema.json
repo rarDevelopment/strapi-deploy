@@ -30,6 +30,11 @@
     },
     "category": {
       "type": "string"
+    },
+    "canonicalUrl": {
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
     }
   }
 }
