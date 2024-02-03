@@ -382,6 +382,7 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
       }>;
     postContent: Attribute.RichText & Attribute.Required;
     originallyPostedDate: Attribute.DateTime;
+    postDescription: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

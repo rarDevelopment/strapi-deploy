@@ -24,6 +24,9 @@
     },
     "originallyPostedDate": {
       "type": "datetime"
+    },
+    "postDescription": {
+      "type": "text"
     }
   }
 }
