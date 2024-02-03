@@ -374,15 +374,13 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    Title: Attribute.String &
+    title: Attribute.String &
       Attribute.Required &
       Attribute.Unique &
       Attribute.SetMinMaxLength<{
         minLength: 1;
       }>;
-    PostContent: Attribute.RichText & Attribute.Required;
-    uniqueId: Attribute.UID & Attribute.Required;
-    PublishDate: Attribute.DateTime & Attribute.Required;
+    postContent: Attribute.RichText & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

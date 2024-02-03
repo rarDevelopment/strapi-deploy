@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@palmabit/strapi-app-version": "^1.2.0",
     "@strapi/plugin-cloud": "4.19.1",
     "@strapi/plugin-i18n": "4.19.1",
     "@strapi/plugin-users-permissions": "4.19.1",
@@ -20,6 +21,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-advanced-uuid": "^1.2.0",
+    "strapi-plugin-import-export-entries": "^1.23.1",
     "styled-components": "5.3.3"
   },
   "author": {

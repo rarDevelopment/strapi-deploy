@@ -12,22 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true,
       "minLength": 1
     },
-    "PostContent": {
+    "postContent": {
       "type": "richtext",
-      "required": true
-    },
-    "uniqueId": {
-      "type": "uid",
-      "required": true
-    },
-    "PublishDate": {
-      "type": "datetime",
       "required": true
     }
   }
