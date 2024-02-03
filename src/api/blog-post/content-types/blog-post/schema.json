@@ -21,6 +21,9 @@
     "postContent": {
       "type": "richtext",
       "required": true
+    },
+    "originallyPostedDate": {
+      "type": "datetime"
     }
   }
 }
