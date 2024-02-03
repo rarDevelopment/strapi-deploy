@@ -380,9 +380,10 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
       Attribute.SetMinMaxLength<{
         minLength: 1;
       }>;
-    postContent: Attribute.RichText & Attribute.Required;
+    content: Attribute.RichText & Attribute.Required;
     originallyPostedDate: Attribute.DateTime;
-    postDescription: Attribute.Text;
+    description: Attribute.Text;
+    category: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
