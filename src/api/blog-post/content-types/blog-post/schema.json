@@ -35,6 +35,10 @@
       "type": "uid",
       "required": true,
       "targetField": "title"
+    },
+    "guid": {
+      "type": "customField",
+      "customField": "plugin::strapi-advanced-uuid.uuid"
     }
   }
 }

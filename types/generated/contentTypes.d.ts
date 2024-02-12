@@ -386,6 +386,8 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
     category: Attribute.String;
     canonicalUrl: Attribute.UID<'api::blog-post.blog-post', 'title'> &
       Attribute.Required;
+    guid: Attribute.UID &
+      Attribute.CustomField<'plugin::strapi-advanced-uuid.uuid'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@bn-digital/strapi-plugin-field-uuid": "^1.2.12",
     "@palmabit/strapi-app-version": "^1.2.0",
     "@strapi/plugin-cloud": "4.19.1",
     "@strapi/plugin-i18n": "4.19.1",
